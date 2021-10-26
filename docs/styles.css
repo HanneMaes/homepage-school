@@ -1,0 +1,39 @@
+.zandpoort  { background-color: Coral; }
+.pitzemburg { background-color: MediumAquamarine; }
+.drive      { background-color: black; }
+
+body {
+  margin: 0;
+
+  display: flex;
+  flex-direction: row;
+}
+
+div {
+  height: 100vh;
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* links text */
+
+a {
+  text-decoration: none;
+  font-size: 30px;
+
+  transition: all 0.5s ease;
+  color: rgba(255, 255, 255, 0.6);
+  transform: scale(0.8);
+}
+
+a::first-letter {
+  color: rgba(255, 255, 255, 1);
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 1);
+  transform: scale(1);
+}
