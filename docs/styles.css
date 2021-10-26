@@ -4,12 +4,16 @@
 
 body {
   margin: 0;
+}
 
+/* links text */
+
+.links {
   display: flex;
   flex-direction: row;
 }
 
-div {
+.links div {
   height: 100vh;
   flex: 1;
 
@@ -17,8 +21,6 @@ div {
   justify-content: center;
   align-items: center;
 }
-
-/* links text */
 
 a {
   text-decoration: none;
