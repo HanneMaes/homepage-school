@@ -1,6 +1,7 @@
-.zandpoort  { background-color: Coral; }
-.pitzemburg { background-color: MediumAquamarine; }
-.drive      { background-color: black; }
+.zandpoort     { background-color: Coral; }
+.pitzemburg    { background-color: MediumAquamarine; }
+.drive         { background-color: black; }
+.lessenrooster { background-color: SlateGray; }
 
 body {
   margin: 0;
